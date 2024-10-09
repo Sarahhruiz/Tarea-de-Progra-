@@ -1,0 +1,270 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes&Clothes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+         <div class="menu contenedor">
+             <a href="#" class="logo">C&C</a>
+             <input type="checkbox" id="menu"/>
+             <label for="menu">
+                <img src="Imagenes/menu.png" class="menu-icono" alt="menu">
+             </label>
+             <nav class="navbar">
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Servicios</a></li>
+                    <li><a href="#lista-1">Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+             </nav>
+             <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="Imagenes/carrito.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                 <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                 </thead>
+                                 <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn2">Vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+             </div>
+             
+         </div>
+         <div class="header-content contenedor">
+            <div class="header-img">
+                <img src="Imagenes/right.png" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>Ofertas especiales</h1>
+                <p>¡Estrena las mejores prendas!</p>
+                <a href="#" class="btn1">Información</a>
+            </div>    
+         </div>
+
+    </header>
+
+<section class="ofert contenedor">
+    <div class="ofert-1">
+        <div class="ofert-img">
+            <img src="Imagenes/f1.png" alt="">
+        </div>
+        <div class="ofert-txt">
+            <h3>Producto 1</h3>
+            <a href="#" class="btn2">Información</a>
+        </div>
+    </div>
+    <div class="ofert-1">
+        <div class="ofert-img">
+            <img src="Imagenes/f2.png" alt="">
+        </div>
+        <div class="ofert-txt">
+            <h3>Producto 2</h3>
+            <a href="#" class="btn2">Información</a>
+        </div>
+    </div>
+    <div class="ofert-1">
+        <div class="ofert-img">
+            <img src="Imagenes/f3.png" alt="">
+        </div>
+        <div class="ofert-txt">
+            <h3>Producto 3</h3>
+            <a href="#" class="btn2">Información</a>
+        </div>
+    </div>
+</section>
+    
+<main class="productos contenedor" id="lista-1">
+
+    <h2>Productos</h2>
+
+    <div class="producto-content">
+
+        <div class="producto">
+            <img src="Imagenes/1.png" alt="">
+            <div class="producto-txt">
+                <h3>Camisa casual azul marino para hombre</h3>
+                <p>Calidad Premium</p>
+                <p class="precio">₡45990</p>
+                <a href="#" class="agregar-carrito btn2" data-id="1">Agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="Imagenes/2.png" alt="">
+            <div class="producto-txt">
+                <h3>Jacket negra elegante para hombre</h3>
+                <p>Calidad Premium</p>
+                <p class="precio">₡38990</p>
+                <a href="#" class="agregar-carrito btn2" data-id="2">Agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="Imagenes/3.png" alt="">
+            <div class="producto-txt">
+                <h3>Abrigo elegante para mujer</h3>
+                <p>Calidad Premium</p>
+                <p class="precio">₡64990</p>
+                <a href="#" class="agregar-carrito btn2" data-id="3">Agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="Imagenes/4.png" alt="">
+            <div class="producto-txt">
+                <h3>Camisa casual azul para hombre</h3>
+                <p>Calidad Premium</p>
+                <p class="precio">₡49990</p>
+                <a href="#" class="agregar-carrito btn2" data-id="4">Agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="Imagenes/5.png" alt="">
+            <div class="producto-txt">
+                <h3>Camisa casual negra para hombre</h3>
+                <p>Calidad Premium</p>
+                <p class="precio">₡43990</p>
+                <a href="#" class="agregar-carrito btn2" data-id="5">Agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="Imagenes/6.png" alt="">
+            <div class="producto-txt">
+                <h3>Abrigo acolchado para mujer</h3>
+                <p>Calidad Premium</p>
+                <p class="precio">₡68990</p>
+                <a href="#" class="agregar-carrito btn2" data-id="6">Agregar al carrito</a>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
+<section class="icons contenedor">
+    <div class="icon1">
+        <div class="icon-img">
+            <img src="Imagenes/i1.svg" alt="">
+        </div>
+        <div class="icons-txt">
+            <h3>Materiales de nuestras prendas:</h3>
+            <p>
+                Algodón, lino, seda, lana, cuero y telas sintéticas como poliéster, licra y nylon.
+            </p>
+        </div>
+    </div>
+    <div class="icon1">
+        <div class="icon-img">
+            <img src="Imagenes/i2.svg" alt="">
+        </div>
+        <div class="icons-txt">
+            <h3>Planchado:</h3>
+            <p>
+                Planchar a temperatura baja (máximo 110 °C)
+            </p>
+        </div>
+    </div>
+    <div class="icon1">
+        <div class="icon-img">
+            <img src="Imagenes/i3.svg" alt="">
+        </div>
+        <div class="icons-txt">
+            <h3>Cuidado de la ropa:</h3>
+            <p>
+                Lavar con agua fría. 
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="blog contenedor">
+
+    <div class="blog-1">
+        <img src="Imagenes/b1.jpg" alt="">
+        <h3>Accesorios que completan tu estilo de esta temporada.</h3>
+        <p>
+            Un buen look invernal no solo depende de la ropa, sino también de los detalles.
+             Desde elegantes lentes hasta cinturones y bolsos sofisticados, descubre cómo los accesorios 
+             pueden elevar cualquier conjunto y reflejar tu estilo único durante esta temporada.
+    </div>
+
+    <div class="blog-1">
+        <img src="Imagenes/b2.jpg" alt="">
+        <h3>Zapatos y camisas que transmiten pura elegancia</h3>
+        <p>
+            ¿Sabías que unos buenos zapatos pueden cambiarlo todo? Estos elegantes 
+            zapatos marrones, combinados con una camisa de puntos sutiles, crean el 
+            equilibrio perfecto entre sofisticación y estilo. 
+            Si buscas un look elegante sin esfuerzo, aquí lo tienes.
+    </div>
+    
+    <div class="blog-1">
+        <img src="Imagenes/b3.jpg" alt="">
+        <h3>Las camisas elegantes que nunca fallan</h3>
+        <p>
+            Siempre hay una camisa que te hace sentir impecable. Las camisas elegantes son esas 
+            prendas que siempre puedes confiar, ya sea para una reunión o una cena especial. 
+            Aquí te contamos cómo cuidarlas para que se vean tan bien como el primer día, temporada tras temporada.
+        </p>
+    </div>
+
+</section>
+
+<footer class="footer" id="contacto">
+    <div class="footer-content contenedor">
+        <div class="link">
+            <h3>Contactános</h3>
+            <ul>
+                <li><a href="#">Email: clothes.clothes2024@gmail.com</a></li>
+                <li><a href="#">Teléfono: +506 22230456</a></li>
+                <li><a href="#">Chat en vivo: +506 85674534</a></li>
+                <li><a href="#">Horario: Lunes a Viernes, 9:00am a 6:00pm</a></li>
+            </ul>
+            <br>
+        </div>
+        <div class="link">
+            <h3>Términos y condiciones</h3>
+            <ul>
+                <li><a href="#">Política de garantía</a></li>
+                <li><a href="#">Política de cambio</a></li>
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Reglamento</a></li>
+            </ul>
+            <br>
+        </div>
+        <div class="link">
+
+            <!--Esta parte del código tiene sus paginas web, puede ingresar a ellas-->
+            <h3>Conectáte con nosotros</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/cvuptl/?utm_source=ig_web_button_share_sheet">Instagram</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61566575473668">Facebook</a></li>
+                <li><a href="https://www.tiktok.com/@clothesandclothes2024?._t=8qO6yHCDd4v&_r=1">Tiktok</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+
+    <div id="noti-carrito">Carrito: <span id="cuenta-car">0</span></div>
+
+</body>
+</html>
